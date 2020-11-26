@@ -1,7 +1,7 @@
 # Reponse CZH
 
 ## Commande
-grep "_from" node_modules/**/package.json | cut -d ':' -f 3 | sort | uniq >> reponse-TDU.md
+grep "_from" node_modules/**/package.json | cut -d ':' -f 3 | sort | uniq >> reponse-CZH.md
 
 ## Resultats :
  "acorn@6.4.1"
