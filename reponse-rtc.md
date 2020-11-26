@@ -1,3 +1,11 @@
+# Reponse rtc
+
+## Commande passée
+
+cat node_modules/**/package.json | awk -F: '/"_from"/{print $2}' | sort | uniq | sed 's/"//g' >> reponse-rtc.md
+
+## Résultat
+
  acorn@6.4.1
  acorn-jsx@5.0.1
  ajv@6.6.2
