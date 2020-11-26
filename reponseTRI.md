@@ -1,6 +1,5 @@
-#Response TRI
 
-## Commande Passé
+ ## Résultat
 "acorn-jsx@5.0.1"
  "acorn@6.4.1"
  "ajv@6.6.2"
@@ -154,6 +153,8 @@
  "is-arrayish@0.2.1"
  "is-binary-path@2.1.0"
  "punycode@2.1.1"
+ "isemail@3.2.0"
+ "isexe@2.0.0"
  "isemail@3.2.0"
  "isexe@2.0.0"
  "is-extglob@2.1.1"
@@ -452,8 +453,6 @@
  "strip-ansi@^3.0.1",
  "unicode-length@^2.0.2",
  "which@2.0.2"
- "widest-line@^3.1.0",
- "ansi-styles@^4.0.0",
  "color-convert@^2.0.1",
  "color-name@~1.1.4",
  "wrap-ansi@^6.2.0",
