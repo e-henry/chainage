@@ -1,8 +1,8 @@
-# rEPONSE tri
+# REPONSE tri
 
 ##Commande passée
 
-grep "_from" node_modules/**/package.json | cut -d ':' -f 3 >> Reponse-SAA.md
+grep "_from" node_modules/**/package.json | cut -d ':' -f 3 |sort | uniq >> Reponse-SAA.md
 
 ##Résultat
 
