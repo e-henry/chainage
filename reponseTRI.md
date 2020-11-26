@@ -1,5 +1,7 @@
-git@github.com:zameziane62/chainage.git
- "acorn-jsx@5.0.1"
+#Response TRI
+
+## Commande Passé
+"acorn-jsx@5.0.1"
  "acorn@6.4.1"
  "ajv@6.6.2"
  "ansi-escapes@3.1.0"
