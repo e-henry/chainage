@@ -1,4 +1,3 @@
-
  ## Résultat
 "acorn-jsx@5.0.1"
  "acorn@6.4.1"
@@ -154,6 +153,7 @@
  "is-binary-path@2.1.0"
  "punycode@2.1.1"
  "isemail@3.2.0"
+ "isexe@2.0.0"
  "isexe@2.0.0"
  "isemail@3.2.0"
  "isexe@2.0.0"
@@ -452,7 +452,6 @@
  "ansi-regex@^2.0.0",
  "strip-ansi@^3.0.1",
  "unicode-length@^2.0.2",
- "which@2.0.2"
  "color-convert@^2.0.1",
  "color-name@~1.1.4",
  "wrap-ansi@^6.2.0",
