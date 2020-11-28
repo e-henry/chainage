@@ -1,3 +1,11 @@
+# Reponse SSU
+
+## Commande
+
+grep "_from" node_modules/**/package.json | cut -d ':' -f 3 | sort | uniq >> reponse-SSU.md
+
+## Resultats :
+
  "acorn@6.4.1"
  "acorn-jsx@5.0.1"
  "ajv@6.6.2"
