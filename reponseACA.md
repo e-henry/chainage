@@ -2,7 +2,7 @@
 
 ## Commande passée
 
-grep "_from" node_modules/**/package.json | cut -d ';' -f 3 | awk -F: '{ print $3 }' | sort | uniq
+grep "_from" node_modules/**/package.json | sed 's/,//g' | cut -d ';' -f 3 | awk -F: '{ print $3 }' | sort | uniq
 
 ## Résultat
 
