@@ -1,7 +1,9 @@
 ##Reponse AAB
 
+
 ##Commande AAB
 grep "_from" node_modules/**/package.json | sed 's/[,^~]//g' | cut -d ':' -f 3 | sort | uniq  >> reponseaab.md
+
 
 ##Resultat
 447
