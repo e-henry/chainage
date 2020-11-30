@@ -3,18 +3,19 @@
 ## Commande passé
 
 ```bash
-grep "_from" node_modules/**/package.json | cut -d ':' -f 3 | sort -h | sed "s/[\^\"]//g" | sed "s/,$//g" | uniq | sed "1 s/^/\`\`\`/g" | sed "$ s/$/\`\`\`/g" >> reponseDHO.md
+grep "_from" node_modules/**/package.json | cut -d ':' -f 3 | sort -h | sed "s/[\^\"]//g" | sed "s/,$//g" | uniq | sed "1 s/^/\`\`\`\\n/" | sed "$ s/$/\\n\`\`\`/" >> reponseDHO.md
 ```
 
 Pour vérifier le nombre de lignes
 
 ```bash
-grep "_from" node_modules/**/package.json | cut -d ':' -f 3 | sort -h | sed "s/[\^\"]//g" | sed "s/,$//g" | uniq | sed "1 s/^/\`\`\`/g" | sed "$ s/$/\`\`\`/g" | wc -l
+grep "_from" node_modules/**/package.json | cut -d ':' -f 3 | sort -h | sed "s/[\^\"]//g" | sed "s/,$//g" | uniq | sed "1 s/^/\`\`\`\\n/" | sed "$ s/$/\\n\`\`\`/" | wc -l
 ```
 
 ## Réponse
 
-``` acorn@6.4.1
+```
+ acorn@6.4.1
  acorn-jsx@5.0.1
  ajv@6.6.2
  ansicolors@~0.3.2
@@ -461,4 +462,5 @@ grep "_from" node_modules/**/package.json | cut -d ':' -f 3 | sort -h | sed "s/[
  yargs@13.3.2
  yargs-parser@13.1.2
  yn@3.1.1
- yoga-layout-prebuilt@1.9.6```
+ yoga-layout-prebuilt@1.9.6
+```
