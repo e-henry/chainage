@@ -4,6 +4,8 @@
 
 cat commande.txt>reponseLVI.md && grep "_from" node_modules/**/package.json | cut -d ':' -f 3 | sed 's/,//g' | sort | uniq >> reponseLVI.md
 
+awk '{print}' commande.txt>reponseLVI.md && grep "_from" node_modules/**/package.json | cut -d ':' -f 3 | sort | uniq >> reponseLVI.md
+
 ## Résulat
 
  "acorn@6.4.1"
