@@ -1,7 +1,6 @@
 #REPONSE ARA
 
 #Commande
-
 grep "_from" node_modules/**/package.json | cut -d ':' -f 3 | cut -c 2- |cut -d ',' -f 1 | sort | uniq >> ResponseARA.md
 
 #Resultat
