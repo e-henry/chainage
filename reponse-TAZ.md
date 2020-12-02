@@ -1,3 +1,8 @@
+#la commande est : 
+ grep "_from" node_modules/**/package.json | sed 's/[,^~]//g' | cut -d ';' -f 3 | awk -F: '{ print $3 }' | sort | uniq >> reponse-TAZ.md
+
+# le resultat est:
+
  "acorn@6.4.1"
  "acorn-jsx@5.0.1"
  "ajv@6.6.2"
